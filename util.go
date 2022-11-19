@@ -20,7 +20,7 @@ func performChecks(sh *shell.Shell) error {
 	}
 
 	if !sh.IsUp() {
-		return fmt.Errorf("You do not have an IPFS node running at port 5001")
+		return fmt.Errorf("you do not have an IPFS node running at port 5001")
 	}
 
 	return nil
